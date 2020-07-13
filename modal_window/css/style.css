@@ -1,0 +1,172 @@
+html{
+  width: 100%;
+  }
+body{
+  width:100%;
+  margin: 0px;
+  }
+.header{
+  text-align: center;
+  font-size: 48px;
+  width: 100%;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.header p{
+  margin-top:0px;
+  color: white;
+}
+
+.with_3fotos{
+width: 100%;
+margin: 0px;
+height: auto;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+
+}
+.with_3fotos .foto_block{
+width:33%;
+min-height: 450px;
+vertical-align: middle;
+display:flex;
+background-repeat: no-repeat;
+background-size: cover;
+overflow: hidden;
+position: relative;
+}
+.with_3fotos .foto_block_2{
+width:calc(34%);
+min-height: 450px;
+vertical-align: middle;
+display:flex;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+overflow: hidden;
+}
+
+.item_1{
+width: 100%;
+text-align: center;
+color: #ffff;
+line-height: 1.5em;
+min-height: 100%;
+position: absolute;
+
+}
+
+
+
+.foto_block .item_1 {
+  opacity: 0;
+  visibility: hidden;
+  transition: all .3s;
+}
+
+
+
+.foto_block:hover .item_1 {
+  opacity: 1;
+  visibility: visible;
+  transition: all .3s;
+}
+.foto_block:hover .item_2 {
+  opacity: 0;
+  visibility: hidden;
+  transition: all .3s;
+}
+.foto_block .item_1 {
+  opacity: 0;
+  visibility: hidden;
+  transition: all .3s;
+}
+
+.foto_block_2 .item_1 {
+  opacity: 0;
+  visibility: hidden;
+  transition: all .3s;
+}
+
+
+.foto_block_2:hover .item_1 {
+  opacity: 1;
+  visibility: visible;
+  transition: all .3s;
+}
+.foto_block_2:hover .item_2 {
+  opacity: 0;
+  visibility: hidden;
+  transition: all .3s;
+}
+
+.item_1 h2{
+margin-top: 25%;
+font-size: 48px;
+
+}
+h3{
+
+position: relative;
+
+
+}
+h3::after{
+position: absolute;
+    content: '';
+    height: 4px;
+    width: 60px;
+    left: 0;
+    right: 0;
+    bottom: -1rem;
+    margin: 0 auto;
+    background: #c5a763;
+
+
+}
+.item_2{
+text-align: center;
+    width: 100%;
+}
+.item_2 img{
+    width: 80%;
+    margin-top: 33%;
+}
+.foto_block_2 .item_2 img{
+    width: 50%;
+    margin-top: 30%;
+}
+.video_stream{
+  width: 100%;
+  text-align: center;
+}
+#videoplayer{
+  height: 200px;
+  width: 200px;
+}
+
+
+
+
+
+/*map game */
+.map_section{
+  width: 600px;
+  margin:auto;
+}
+.map{
+  padding-top: 100%;
+  margin-top: 25%;
+}
+
+#distance{
+    width: 15%;
+    margin: auto;
+    border-radius: 15px;
+    padding: 10px;
+    height: auto;
+    background-color: #8e8e3b;
+}
